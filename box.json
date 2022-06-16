@@ -1,0 +1,36 @@
+{
+    "compression": "GZ",
+    "stub": "src/stub.php",
+    "directories": [
+        "src",
+        "vendor"
+    ],
+    "finder": [
+        {
+            "in": "src",
+            "name": "*.*"
+        },
+        {
+            "in": "vendor",
+            "name": "*.php",
+            "exclude": [
+                "CHANGELOG",
+                "CONTRIBUTING",
+                "README",
+                "Tests",
+                "behat",
+                "ext",
+                "bin",
+                "build",
+                "doc",
+                "docs",
+                "doc-template",
+                "fixtures",
+                "test",
+                "tests",
+                "test_old",
+                "vendor-bin"
+            ]
+        }
+    ]
+}
