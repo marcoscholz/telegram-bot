@@ -1,4 +1,6 @@
 vendor/
 .idea/
 .env
+*.phar
 config.json
+marcoBotConfig.json
