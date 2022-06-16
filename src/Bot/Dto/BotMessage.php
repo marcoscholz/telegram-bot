@@ -20,7 +20,8 @@ class BotMessage
         $this->date = $data->date;
         $this->text = $data->text;
         $data->entities = $data->entities ?? [];
-        foreach ($data->entities as $entity) $this->entities[] = new BotEntity($entity);
+        foreach ($data->entities as $entity) {
+            $this->entities[] = new BotEntity($entity);
+        }
     }
-
 }

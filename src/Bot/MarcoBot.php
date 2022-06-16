@@ -117,5 +117,4 @@ class MarcoBot extends AbstractBot
         HTML;
         $this->sendMessage($update->message->chat->id, $msg);
     }
-
 }

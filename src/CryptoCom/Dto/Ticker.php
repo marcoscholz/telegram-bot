@@ -26,5 +26,4 @@ class Ticker
         $this->low24h = $data->l;
         $this->change = $data->c;
     }
-
 }
