@@ -26,7 +26,13 @@ Run the Bot with
 
 # Changelog
 
-## [1.0.0] - 2022-06-17 00:00 UTC
+## [1.1.0] - 2022-06-17 00:00 UTC
+### Added
+- box project to build phar file `marcoBot.phar`
+- php code sniffer for cleaner code
+- `Bot/MarcoBot` class
+
+## [1.0.0] - 2022-06-16 23:00 UTC
 ### Initial
 - `.gitignore`
 - `composer.json`
