@@ -1,3 +1,6 @@
+[![ubuntu](https://img.shields.io/badge/Ubuntu-20.04_LTS_(focal_fossa)-brightgreen.svg)](http://releases.ubuntu.com/20.04/)
+[![PHP-Version](https://img.shields.io/badge/php-8.1-blue.svg)](https://packages.ubuntu.com/eoan/libapache2-mod-php8.1)
+
 # Usage
 Install and compile (using box.json) with [Composer](https://getcomposer.org/)
 
