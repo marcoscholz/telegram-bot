@@ -1,6 +1,6 @@
 {
     "name": "marco/telegram-bot",
-    "description": "Marcos Telegeram Bot",
+    "description": "Marcos Telegram Bot",
     "prefer-stable": true,
     "minimum-stability": "dev",
     "require": {
