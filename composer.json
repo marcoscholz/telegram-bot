@@ -1,0 +1,17 @@
+{
+    "name": "marco/telegram-bot",
+    "description": "Marcos Telegram Bot",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marco\\Telegram\\": "src/"
+        }
+    }
+}
